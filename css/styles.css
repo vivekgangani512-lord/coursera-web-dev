@@ -5,13 +5,25 @@ body {
 }
 
 .content-box {
-  background-color: #e5e5e5;
-  padding: 30px;
-  height: 1000px; /* makes section tall */
+  background-color: #f2f2f2;
+  padding: 40px;
+  min-height: 1000px;
+}
+
+.menu-item {
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 30px;
 }
 
 .navbar {
   border-radius: 0;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .navbar-nav > li > a {
